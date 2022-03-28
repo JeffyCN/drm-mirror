@@ -1,0 +1,9 @@
+# Configure file for libdrm-mirror.
+#
+# debug=1
+# log-file=
+# primary=DSI-1
+# fill-mode=stretch # none|stretch|fit|crop
+# HDMI-A-2:fill-mode=fit
+# HDMI-A-2:mode=1280x720@50
+# HDMI-A-2:dst=<200,100,1200,600>

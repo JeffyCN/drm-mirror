@@ -1,0 +1,14 @@
+.*
+.deps
+.libs
+*.tar
+*.lo
+*.la
+*.o
+*.so
+*.d
+*~
+*.swp
+*.gc??
+build
+debian
