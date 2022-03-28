@@ -1,0 +1,22 @@
+Source: libdrm-mirror
+Priority: optional
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Build-Depends: debhelper (>= 9),
+               meson,
+               pkg-config,
+               libdrm-dev,
+Standards-Version: 3.9.8
+Section: libs
+Homepage: https://github.com/JeffyCN/libdrm-mirror
+Vcs-Git: https://github.com/JeffyCN/libdrm-mirror
+Vcs-Browser: https://github.com/JeffyCN/libdrm-mirror
+
+Package: libdrm-mirror-dev
+Section: libdevel
+Architecture: any
+Description: A hook of legacy DRM APIs to mirror connectors.
+
+Package: libdrm-mirror
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A hook of legacy DRM APIs to mirror connectors.
